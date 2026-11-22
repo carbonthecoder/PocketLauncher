@@ -6,7 +6,7 @@ import androidx.appcompat.app.AlertDialog;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 public final class LauncherDialogBuilder extends MaterialAlertDialogBuilder {
-    public LauncherDialogBuilder(Context context) { super(context, R.style.ThemeOverlay_Levi_LauncherDialog); clearInsets(); }
+    public LauncherDialogBuilder(Context context) { super(context, R.style.ThemeOverlay_Pocket_LauncherDialog); clearInsets(); }
     public LauncherDialogBuilder(Context context, int theme) { super(context, theme); clearInsets(); }
 
     private void clearInsets() {

@@ -147,6 +147,7 @@
         <item name="android:drawableTint">@color/text_secondary</item>
         <item name="android:singleLine">true</item>
     </style>
+    <style name="Widget.Levi.Input" parent="Widget.Pocket.Input" />
 
     <!-- Tags -->
     <style name="Widget.Pocket.Tag" parent="">
@@ -161,6 +162,7 @@
         <item name="android:paddingBottom">2dp</item>
         <item name="android:singleLine">true</item>
     </style>
+    <style name="Widget.Levi.Tag" parent="Widget.Pocket.Tag" />
 
     <style name="Widget.Pocket.Tag.Accent">
         <item name="android:background">@drawable/bg_ui_tag_accent</item>

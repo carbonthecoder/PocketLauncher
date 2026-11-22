@@ -104,7 +104,7 @@ final class ModMenuTheme {
     private static final class MenuContext extends ContextThemeWrapper {
         final int scale;
         MenuContext(Context source, Configuration configuration, int scale) {
-            super(source, R.style.Theme_Levi_ModMenu);
+            super(source, R.style.Theme_Pocket_ModMenu);
             this.scale = scale;
             applyOverrideConfiguration(configuration);
         }

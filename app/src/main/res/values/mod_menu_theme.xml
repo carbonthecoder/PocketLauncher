@@ -10,4 +10,5 @@
         <item name="android:colorAccent">#737380</item>
         <item name="android:windowActionModeOverlay">true</item>
     </style>
+    <style name="Theme.Levi.ModMenu" parent="Theme.Pocket.ModMenu" />
 </resources>

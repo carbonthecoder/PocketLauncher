@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="ThemeOverlay.Levi.LauncherDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+    <style name="ThemeOverlay.Pocket.LauncherDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
         <item name="materialAlertDialogTitleTextStyle">@style/Widget.Pocket.DialogTitle</item>
         <item name="materialAlertDialogBodyTextStyle">@style/TextAppearance.Pocket.DialogBody</item>
         <item name="textAppearanceListItem">@style/TextAppearance.Pocket.DialogBody</item>
@@ -8,6 +8,7 @@
         <item name="android:textColorPrimary">@color/text_primary</item>
         <item name="android:textColorSecondary">@color/text_secondary</item>
     </style>
+    <style name="ThemeOverlay.Levi.LauncherDialog" parent="ThemeOverlay.Pocket.LauncherDialog" />
     <style name="Widget.Pocket.DialogTitle" parent="MaterialAlertDialog.Material3.Title.Text">
         <item name="android:textSize">17sp</item>
         <item name="android:fontFamily">sans-serif-medium</item>

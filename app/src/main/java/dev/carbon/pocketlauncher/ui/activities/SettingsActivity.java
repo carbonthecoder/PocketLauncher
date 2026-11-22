@@ -797,7 +797,7 @@ public class SettingsActivity extends BaseActivity {
     }
 
     private void showCustomColorDialog(int initial) {
-        EditText input = new EditText(this, null, 0, R.style.Widget_Levi_Input);
+        EditText input = new EditText(this, null, 0, R.style.Widget_Pocket_Input);
         input.setHint(R.string.custom_color_hint);
         input.setText(String.format(Locale.ROOT, "#%06X", initial & 0xFFFFFF));
         input.setSingleLine(true);

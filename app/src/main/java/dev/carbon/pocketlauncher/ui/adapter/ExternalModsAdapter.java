@@ -200,7 +200,7 @@ public final class ExternalModsAdapter extends RecyclerView.Adapter<ExternalMods
         for (String tag : mod.tags) {
             if (TextUtils.isEmpty(tag)) continue;
             if (added++ >= MAX_CATALOG_TAGS) break;
-            TextView view = new TextView(ctx, null, 0, R.style.Widget_Levi_Tag);
+            TextView view = new TextView(ctx, null, 0, R.style.Widget_Pocket_Tag);
             view.setText(tag);
             group.addView(view, new ViewGroup.LayoutParams(
                     ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
