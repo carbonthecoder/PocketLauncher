@@ -148,20 +148,7 @@ class MinecraftActivity : MainActivity(), PojavControlsHost {
     }
 
 
-    private fun // configureMinecraftFirebase() {
-        val appId = gameManager.getGameStringResource("google_app_id")
-            ?: "1:486187589451:android:b2331110821fe2304bd2ce"
-        val apiKey = gameManager.getGameStringResource("google_api_key")
-            ?: gameManager.getGameStringResource("google_crash_reporting_api_key")
-            ?: ""
-        val projectId = gameManager.getGameStringResource("project_id")
-            ?: "minecraft-bedrock-57580"
-        val senderId = gameManager.getGameStringResource("gcm_defaultSenderId")
-            ?: "486187589451"
-        intent.putExtra("MINECRAFT_FIREBASE_APP_ID", appId)
-        intent.putExtra("MINECRAFT_FIREBASE_API_KEY", apiKey)
-        intent.putExtra("MINECRAFT_FIREBASE_PROJECT_ID", projectId)
-        intent.putExtra("MINECRAFT_FIREBASE_SENDER_ID", senderId)
+    private fun configureMinecraftFirebase() {
     }
 
     private fun returnToLauncherAfterLaunchFailure() {
